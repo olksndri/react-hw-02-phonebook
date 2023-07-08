@@ -1,5 +1,3 @@
-import css from '../styles/app.module.css'
-
 export const Filter = ({ onInput, filterId, filter }) => { 
     return ( 
         <>
