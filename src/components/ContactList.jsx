@@ -19,7 +19,7 @@ export const ContactList = ({ contacts, filter, onDelete }) => {
                             <span>{el.name}: {el.number}</span>
                             <button type="button" onClick={onDelete} key={el.id}>Delete</button>
                             </li>)
-                    }
+                    } return <></>; 
                 })}
             </ul>
         </>
