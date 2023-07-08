@@ -1,4 +1,4 @@
-import css from '../styles/app.module.css'
+import css from '../styles/app.module.css';
 
 export const ContactForm = ({onSubmit, onInput, textId, numberId, name ='', number=''}) => { 
     return ( 

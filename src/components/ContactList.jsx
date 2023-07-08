@@ -1,4 +1,4 @@
-import css from '../styles/app.module.css'
+import css from '../styles/app.module.css';
 
 export const ContactList = ({ contacts, filter, onDelete }) => { 
     return (
