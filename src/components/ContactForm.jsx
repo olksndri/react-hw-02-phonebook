@@ -1,4 +1,5 @@
 import css from '../styles/app.module.css';
+import PropTypes from 'prop-types';
 
 export const ContactForm = ({onSubmit, onInput, textId, numberId, name ='', number=''}) => { 
     return ( 
@@ -28,4 +29,13 @@ export const ContactForm = ({onSubmit, onInput, textId, numberId, name ='', numb
         <button type="submit">Add contact</button>
         </form>
     )
+}
+
+ContactForm.propTypes = {
+    onSubmit: PropTypes.func.isRequired,
+    onInput: PropTypes.func.isRequired,
+    textId: PropTypes.string,
+    numberId: PropTypes.string,
+    name: PropTypes.string,
+    number: PropTypes.string
 }
